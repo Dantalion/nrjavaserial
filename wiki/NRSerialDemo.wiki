@@ -1,5 +1,6 @@
 #This is how to use NRSerialPort objects
 
+<pre>
 NRSerialPort serial = new NRSerialPort(getPort(), baud);                          
 
 serial.connect();                                 
@@ -11,3 +12,5 @@ DataOutputStream outs = new DataOutputStream(serial.getOutputStream());
 byte b = ins.read();
 
 outs.write(b); 
+
+</pre>
