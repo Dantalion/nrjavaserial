@@ -1,3 +1,5 @@
-#This is how to use NRSerial objects
+#This is how to use NRSerialPort objects
 
-*see [http://code.google.com/p/nr-sdk/source/browse/trunk/NRDK/src/com/neuronrobotics/sdk/serial/SerialConnection.java this example]
+<pre>
+NRSerialPort serial = new NRSerialPort(getPort(), baud);                          serial.connect();                                 setDataIns(new DataInputStream(serial.getInputStream()));                          setDataOuts(new DataOutputStream(serial.getOutputStream())); 
+</pre>
