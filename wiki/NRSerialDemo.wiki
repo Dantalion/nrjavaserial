@@ -1,7 +1,7 @@
 #This is how to use NRSerialPort objects
 
 <pre>
-NRSerialPort serial = new NRSerialPort(getPort(), baud);                          
+NRSerialPort serial = new NRSerialPort("COM3", 115200);                          
 
 serial.connect();                                 
 
