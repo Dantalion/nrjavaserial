@@ -13,4 +13,6 @@ byte b = ins.read();
 
 outs.write(b); 
 
+serial.disconnect();
+
 </pre>
